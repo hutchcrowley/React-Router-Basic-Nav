@@ -1,22 +1,26 @@
-import React from 'react';
+import React from 'react'
+import '../App.css'
 
 const Navigation = () => {
   return (
-    <div>
-      <div className="App">
-        <h1>React Router Mini</h1>
-        <div>
-          <a href="">Home</a>
-        </div>
-        <div>
-          <a href="">About</a>
-        </div>
-        <div>
-          <a href="">Contact</a>
-        </div>
+    <container className="nav-bar">
+      <div className="nav-item">
+        <a href="/" className="nav-link">
+          Home
+        </a>
       </div>
-    </div>
-  );
-};
+      <div className="nav-item">
+        <a href="/about" className="nav-link">
+          About
+        </a>
+      </div>
+      <div className="nav-item">
+        <a href="/contact" className="nav-link">
+          Contact
+        </a>
+      </div>
+    </container>
+  )
+}
 
-export default Navigation;
+export default Navigation
