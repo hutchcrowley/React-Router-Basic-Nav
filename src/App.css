@@ -1,10 +1,11 @@
 .wrapper-main {
   width: 100%;
   height: 1100px;
-  margin:0 auto;
-text-align: center;
-background-color: #1a1a1a;
-filter: opacity(.91);
+  padding: 5rem;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #1a1a1a;
+  filter: opacity(0.91);
 }
 
 .nav-bar {
@@ -14,7 +15,7 @@ filter: opacity(.91);
   width: 100vw;
   justify-content: flex-end;
   background-color: #000000;
-  filter: opacity(.85);
+  filter: opacity(0.85);
 }
 
 h1 {
@@ -22,20 +23,20 @@ h1 {
 }
 
 .nav-item {
-height: 100%;
-width: 10%;
-text-align: center;
+  height: auto;
+  width: 10%;
+  text-align: center;
 }
 .nav-item:hover {
-  background-color:#ffffff;
+  background-color: #ffffff;
   color: #000000;
 }
 
 .nav-link {
-  height: 100%;
+  height: auto;
   width: 100%;
   margin-top: 17%;
-color: #ffffff;
+  color: #ffffff;
 }
 .nav-link:hover {
   color: #000000;
@@ -51,6 +52,6 @@ color: #ffffff;
 }
 
 .component-display h1 {
-font-size: 8rem;
-font-weight: 4;
+  font-size: 8rem;
+  font-weight: 4;
 }
